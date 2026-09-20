@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhanya A M — AI & Data Science Portfolio</title>
+<!-- ==================================================================
+  PROJECT STRUCTURE
+    index.html            → this file (markup only)
+    css/style.css         → all styling
+    js/script.js          → nav scroll-spy + scroll-reveal animation
+    assets/resume/        → Dhanya_AM_Resume.pdf (already added)
+    assets/img/           → profile photo (already added)
+    assets/certificates/  → certificate images (3 of 4 already added)
+
+  ⚠️  ONE THING STILL OPTIONAL:
+  The "GenAI & Data Analytics Job Simulation" (Tata · Forage) certificate
+  in the Certifications section has no image yet — see the comment right
+  above its placeholder div, or README.md, for how to add it.
+=================================================================== -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header>
+  <div class="nav">
+    <a href="#home" class="brand"><span class="brand-mark">D</span>DHANYA A M</a>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- ⚠️ Resume PDF link → replace filename with your actual PDF -->
+    <a href="assets/resume/Dhanya_AM_Resume.pdf" target="_blank" rel="noopener" class="btn btn-primary btn-sm">View Resume ↗</a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <div class="label">AI &amp; Data Science Student</div>
+      <h1>Hi, I'm <span class="grad-text">Dhanya</span>.<br>I build intelligent solutions with <span class="grad-text">Data</span> &amp; <span class="grad-text">AI</span>.</h1>
+      <p class="lead">
+        B.Tech Artificial Intelligence &amp; Data Science student graduating in 2027, with hands-on experience
+        in AI/ML, software development, REST APIs, Docker and Kubernetes. Interested in building reliable,
+        scalable and intelligent technology solutions.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Projects →</a>
+        <!-- ⚠️ Resume PDF link -->
+        <a href="assets/resume/Dhanya_AM_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">View Resume ↓</a>
+      </div>
+
+      <div class="tech-label">Technologies I Work With</div>
+      <div class="tech-row">
+        <span class="tech-pill"><i>Py</i>Python</span>
+        <span class="tech-pill"><i>Jv</i>Java</span>
+        <span class="tech-pill"><i>SQ</i>SQL</span>
+        <span class="tech-pill"><i>TF</i>TensorFlow</span>
+        <span class="tech-pill"><i>PT</i>PyTorch</span>
+        <span class="tech-pill"><i>Y8</i>YOLO</span>
+        <span class="tech-pill"><i>Dk</i>Docker</span>
+        <span class="tech-pill"><i>K8</i>Kubernetes</span>
+        <span class="tech-pill"><i>Gt</i>Git</span>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="photo-wrap">
+        <div class="photo-glow"></div>
+        <div class="photo-frame" style="padding:0;overflow:hidden">
+          <img src="assets/img/profile.jpg" alt="Dhanya A M"
+               style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block">
+        </div>
+        <div class="float-card fc-1"><span class="dot"></span>AI / ML</div>
+        <div class="float-card fc-2"><span class="dot"></span>Python</div>
+        <div class="float-card fc-3"><span class="dot"></span>Computer Vision</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="wrap">
+    <div class="label">About Me</div>
+    <h2 class="sec">Building practical solutions with AI and technology.</h2>
+
+    <div class="about-grid" style="margin-top:38px">
+      <div class="reveal">
+        <p>
+          I am an Artificial Intelligence and Data Science student with a strong interest in machine learning,
+          data-driven systems and software development. I enjoy working on practical projects that combine AI,
+          data analysis and scalable technologies.
+        </p>
+        <p>
+          My experience includes working with Python, Java, SQL, machine learning, deep learning, computer vision,
+          REST APIs, Docker and Kubernetes. I have also gained hands-on internship experience in Flutter development
+          and machine learning workflows.
+        </p>
+      </div>
+      <div class="stat-grid reveal">
+        <div class="stat"><div class="num">2027</div><div class="cap">Expected Graduation</div></div>
+        <div class="stat"><div class="num">8.28</div><div class="cap">CGPA (upto 5th Sem)</div></div>
+        <div class="stat"><div class="num">2+</div><div class="cap">Internships</div></div>
+        <div class="stat"><div class="num">3</div><div class="cap">Featured Projects</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education">
+  <div class="wrap">
+    <div class="label">Education</div>
+    <h2 class="sec">Academic Background</h2>
+
+    <div style="margin-top:38px" class="reveal">
+      <div class="edu-main">
+        <div class="edu-icon">🎓</div>
+        <div>
+          <h3>B.Tech — Artificial Intelligence &amp; Data Science</h3>
+          <div class="sub">Ramco Institute of Technology &nbsp;·&nbsp; Anna University &nbsp;·&nbsp; Expected Graduation: 2027</div>
+        </div>
+        <div class="edu-cgpa">
+          <div class="v">8.28</div>
+          <div class="k">CGPA · Upto 5th Sem</div>
+        </div>
+      </div>
+
+      <div class="edu-mini">
+        <div class="edu-card">
+          <div class="yr">2023</div>
+          <h4>Higher Secondary Certificate (HSC)</h4>
+          <div class="meta">CBSE &nbsp;·&nbsp; Score: 72.4%</div>
+        </div>
+        <div class="edu-card">
+          <div class="yr">2021</div>
+          <h4>Secondary School Leaving Certificate (SSLC)</h4>
+          <div class="meta">CBSE &nbsp;·&nbsp; Score: 85.8%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+  <div class="wrap">
+    <div class="label">Technical Skills</div>
+    <h2 class="sec">Technologies &amp; Tools I Work With</h2>
+    <p class="sec-sub">A categorized view of the languages, frameworks, data tools and DevOps platforms I use to build end-to-end intelligent systems.</p>
+
+    <div class="skill-grid" style="margin-top:42px">
+      <div class="skill-card reveal">
+        <div class="skill-head"><div class="ic">⌨</div><h4>Programming</h4></div>
+        <div class="chips">
+          <span class="chip">Python</span><span class="chip">Java</span><span class="chip">SQL</span>
+          <span class="chip">OOP</span><span class="chip">Data Structures &amp; Algorithms</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-head"><div class="ic">🧠</div><h4>AI &amp; Machine Learning</h4></div>
+        <div class="chips">
+          <span class="chip">Machine Learning</span><span class="chip">Deep Learning</span>
+          <span class="chip">Computer Vision</span><span class="chip">scikit-learn</span>
+          <span class="chip">TensorFlow</span><span class="chip">PyTorch</span><span class="chip">YOLOv8</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-head"><div class="ic">📊</div><h4>Data</h4></div>
+        <div class="chips">
+          <span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Data Modeling</span>
+          <span class="chip">Power BI</span><span class="chip">MySQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-head"><div class="ic">⚙</div><h4>Software &amp; Web Development</h4></div>
+        <div class="chips">
+          <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+          <span class="chip">REST APIs</span><span class="chip">SDLC</span><span class="chip">Agile</span>
+          <span class="chip">Debugging</span><span class="chip">Software Testing</span><span class="chip">Code Optimization</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-head"><div class="ic">☁</div><h4>Cloud &amp; DevOps</h4></div>
+        <div class="chips">
+          <span class="chip">Docker</span><span class="chip">Kubernetes</span>
+          <span class="chip">Git</span><span class="chip">GitHub</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+  <div class="wrap">
+    <div class="label">Featured Projects</div>
+    <h2 class="sec">Selected Work &amp; Technical Projects</h2>
+    <p class="sec-sub">A selection of projects spanning cloud-native systems, applied machine learning and deep learning research.</p>
+
+    <div class="proj-grid" style="margin-top:44px">
+
+      <!-- PROJECT 01 -->
+      <article class="proj reveal">
+        <div class="proj-top">
+          <span class="proj-num">01</span>
+          <span class="proj-badge">DevOps</span>
+        </div>
+        <div class="proj-body">
+          <h3>Kubernetes Auto-Scaling Simulation</h3>
+          <p>
+            Simulated Kubernetes horizontal auto-scaling behavior using real-world workload traces to model
+            production traffic patterns. Generated load using Locust and deployed the application on Minikube.
+            Analyzed scaling responsiveness and resource utilization to identify performance bottlenecks.
+          </p>
+          <div class="tags">
+            <span class="tag">Kubernetes</span><span class="tag">Docker</span>
+            <span class="tag">Minikube</span><span class="tag">Locust</span>
+          </div>
+          <a href="https://github.com/dhanyamanokaran06/k8s-autoscaling-simulation" target="_blank" rel="noopener" class="proj-link">View on GitHub <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <!-- PROJECT 02 (FEATURED) -->
+      <article class="proj featured reveal">
+        <div class="proj-top">
+          <span class="proj-num">02</span>
+          <span class="proj-badge">AI / ML Focus</span>
+        </div>
+        <div class="proj-body">
+          <h3>AI-Powered Road Accident Analysis System</h3>
+          <p>
+            Built and trained machine learning models to predict accident risk, injury severity and driver risk
+            levels using historical road-safety data. Integrated YOLOv8 object detection for real-time vehicle
+            identification and designed an interactive Streamlit dashboard to visualize predictions and risk metrics.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Machine Learning</span>
+            <span class="tag">YOLOv8</span><span class="tag">Computer Vision</span><span class="tag">Streamlit</span>
+          </div>
+          <a href="https://github.com/dhanyamanokaran06/AI-Powered-Road-Accident-Analysis-System" target="_blank" rel="noopener" class="proj-link">View on GitHub <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <!-- PROJECT 03 -->
+      <article class="proj reveal">
+        <div class="proj-top">
+          <span class="proj-num">03</span>
+          <span class="proj-badge">Deep Learning</span>
+        </div>
+        <div class="proj-body">
+          <h3>GAN-Based Face Anti-Spoofing System</h3>
+          <p>
+            Built a deep learning-based system to classify real and spoofed faces by detecting spectral and
+            temporal artifacts from print, replay and screen attacks.
+          </p>
+          <div class="tags">
+            <span class="tag">Deep Learning</span><span class="tag">GAN</span>
+            <span class="tag">Computer Vision</span><span class="tag">Python</span>
+          </div>
+          <a href="https://github.com/dhanyamanokaran06/Ganface-antispoofing" target="_blank" rel="noopener" class="proj-link">View on GitHub <span class="arw">→</span></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+  <div class="wrap">
+    <div class="label">Experience</div>
+    <h2 class="sec">Hands-on Learning &amp; Industry Experience</h2>
+
+    <div class="tl" style="margin-top:44px">
+
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-top">
+            <h3>Flutter Intern</h3>
+            <span class="tl-date">Jun 2025 – Jul 2025</span>
+          </div>
+          <div class="tl-org">Abservetech Pvt. Ltd. &nbsp;<span>· Duration: 1 Month</span></div>
+          <ul class="tl-list">
+            <li>Developed cross-platform mobile application features using Flutter and Dart.</li>
+            <li>Built reusable UI components for production-facing screens.</li>
+            <li>Integrated REST APIs to enable real-time data exchange between the mobile frontend and backend services.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Flutter</span><span class="tag">Dart</span><span class="tag">REST APIs</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-top">
+            <h3>Machine Learning Intern</h3>
+            <span class="tl-date">Feb 2025</span>
+          </div>
+          <div class="tl-org">Anjana Infotech &nbsp;<span>· Duration: 2 Weeks</span></div>
+          <ul class="tl-list">
+            <li>Performed data preprocessing, feature preparation and cleaning on real-world datasets using Python, Pandas and NumPy.</li>
+            <li>Trained and evaluated machine learning models using scikit-learn.</li>
+            <li>Gained hands-on experience with the end-to-end machine learning workflow.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">NumPy</span>
+            <span class="tag">scikit-learn</span><span class="tag">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACHIEVEMENTS ================= -->
+<section id="achievements">
+  <div class="wrap">
+    <div class="label">Achievements</div>
+    <h2 class="sec">Learning, Building &amp; Competing</h2>
+
+    <div style="margin-top:42px">
+      <div class="ach-feature reveal">
+        <div class="trophy">🏆</div>
+        <div>
+          <div class="eyebrow">First Prize</div>
+          <h3>Mission MapX — Datryx'26</h3>
+          <p>National Level Technical Symposium organized by Francis Xavier Engineering College.</p>
+        </div>
+      </div>
+
+      <div class="ach-grid">
+        <div class="ach-card reveal">
+          <h4>Gen AI Exchange Hackathon 2025</h4>
+          <p>
+            Built and presented an AI-powered marketplace assistant prototype using Generative AI concepts
+            at the Gen AI Exchange Hackathon 2025.
+          </p>
+          <div class="meta">Organized by Google Cloud</div>
+          <a href="assets/certificates/genai-hackathon.png" target="_blank" rel="noopener" style="display:block;margin-top:16px">
+            <img src="assets/certificates/genai-hackathon.png" alt="Gen AI Exchange Hackathon 2025 certificate of participation"
+                 style="width:100%;border-radius:10px;border:1px solid var(--line);display:block">
+          </a>
+        </div>
+
+        <div class="ach-card reveal">
+          <h4>Hackathons &amp; Technical Events</h4>
+          <p>Developed real-world AI/ML solutions as a participant in:</p>
+          <div class="mini-tags">
+            <span class="tag">Infosys PALS Techzooka</span>
+            <span class="tag">ECLearnix Hackathons</span>
+            <span class="tag">AI Escape Room</span>
+            <span class="tag">Google Hunt</span>
+            <span class="tag">Code Conflux — NEC Kovilpatti</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications">
+  <div class="wrap">
+    <div class="label">Certifications &amp; Learning</div>
+    <h2 class="sec">Continuous Upskilling</h2>
+
+    <div class="cert-grid" style="margin-top:42px">
+      <div class="cert reveal">
+        <div class="cert-ic">🧩</div>
+        <div>
+          <h4>AI Agents Intensive Course</h4>
+          <div class="iss">Google × Kaggle</div>
+          <a href="assets/certificates/ai-agents-intensive.png" target="_blank" rel="noopener" style="display:block;margin-top:12px">
+            <img src="assets/certificates/ai-agents-intensive.png" alt="5-Day AI Agents Intensive Course with Google certificate"
+                 style="width:100%;border-radius:8px;border:1px solid var(--line);display:block">
+          </a>
+        </div>
+      </div>
+
+      <div class="cert reveal">
+        <div class="cert-ic">☁</div>
+        <div>
+          <h4>Google Cloud Jams Program</h4>
+          <div class="iss">GCP Hands-on Labs</div>
+          <a href="assets/certificates/google-cloud-jams.png" target="_blank" rel="noopener" style="display:block;margin-top:12px">
+            <img src="assets/certificates/google-cloud-jams.png" alt="Google Cloud Jams Program certificate"
+                 style="width:100%;border-radius:8px;border:1px solid var(--line);display:block">
+          </a>
+        </div>
+      </div>
+
+      <div class="cert reveal">
+        <div class="cert-ic">📈</div>
+        <div>
+          <h4>GenAI Data Analytics Job Simulation</h4>
+          <div class="iss">Tata · Forage</div>
+          <a href="assets/certificates/Forage.jpeg" target="_blank" rel="noopener" style="display:block;margin-top:12px">
+            <img src="assets/certificates/Forage.jpeg" alt="GenAI & Data Analytics Job Simulation"
+                 style="width:100%;border-radius:8px;border:1px solid var(--line);display:block">
+          </a>
+        </div>
+      </div>
+
+      <div class="cert reveal">
+        <div class="cert-ic">🗄</div>
+        <div>
+          <h4>Data Engineering Masterclass</h4>
+          <div class="iss">Hadoop · Spark · AWS</div>
+          <a href="assets/certificates/data-engineering-masterclass.jpg" target="_blank" rel="noopener" style="display:block;margin-top:12px">
+            <img src="assets/certificates/data-engineering-masterclass.jpg" alt="Data Engineering Masterclass — Hadoop, Spark and AWS Hands-On certificate"
+                 style="width:100%;border-radius:8px;border:1px solid var(--line);display:block">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOFT SKILLS ================= -->
+<section id="soft">
+  <div class="wrap">
+    <div class="label">Soft Skills</div>
+    <h2 class="sec">Beyond Technology</h2>
+
+    <div class="soft-wrap" style="margin-top:36px">
+      <span class="soft reveal"><span class="sq"></span>Communication</span>
+      <span class="soft reveal"><span class="sq"></span>Problem-Solving</span>
+      <span class="soft reveal"><span class="sq"></span>Teamwork</span>
+      <span class="soft reveal"><span class="sq"></span>Time Management</span>
+    </div>
+
+    <div class="lang-row">
+      <span class="soft"><span class="sq"></span>English</span>
+      <span class="soft"><span class="sq"></span>Tamil</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="label">Let's Connect</div>
+        <h2 class="sec">Let's build something meaningful.</h2>
+        <p class="sec-sub" style="margin-bottom:30px">
+          I'm interested in opportunities where I can learn, contribute and build impactful technology solutions.
+        </p>
+
+        <div class="hero-cta" style="margin-bottom:34px">
+          <a href="mailto:dhanyamanokaran06@gmail.com" class="btn btn-primary">Get In Touch →</a>
+          <!-- ⚠️ Replace with your LinkedIn URL -->
+          <a href="https://linkedin.com/in/dhanya-manokaran-8612b6293" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+          <!-- ⚠️ Replace with your GitHub URL -->
+          <a href="https://github.com/dhanyamanokaran06" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        </div>
+
+        <div class="contact-card">
+          <div class="info-row">
+            <div class="info-ic">✉</div>
+            <div><div class="k">Email</div><div class="v">dhanyamanokaran06@gmail.com</div></div>
+          </div>
+          <div class="info-row">
+            <div class="info-ic">📍</div>
+            <div><div class="k">Location</div><div class="v">Chatrapatti, Virudhunagar, Tamil Nadu</div></div>
+          </div>
+          <div class="info-row">
+            <div class="info-ic">📞</div>
+            <div><div class="k">Phone</div><div class="v">+91 9489280024</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="brand-mark">D</span>
+        <div>
+          <div class="nm">DHANYA A M</div>
+          <div class="rl">AI &amp; Data Science Student</div>
+        </div>
+      </div>
+      <div class="foot-links">
+        <!-- ⚠️ Replace links -->
+        <a href="https://linkedin.com/in/dhanya-manokaran-8612b6293" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/dhanyamanokaran06" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:dhanyamanokaran06@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Dhanya A M. All rights reserved.</span>
+      <span>Designed with a focus on AI · ML · Data Science</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
